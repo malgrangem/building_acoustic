@@ -31,7 +31,6 @@ pyparsing==3.2.1
 PyQt5==5.15.10
 PyQtWebEngine==5.15.6
 pyvista==0.44.2
-pywin32==308
 scooby==0.10.0
 setuptools==75.8.2
 six==1.17.0
