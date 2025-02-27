@@ -36,7 +36,7 @@ setuptools==75.8.2
 six==1.17.0
 st-annotated-text==4.0.2
 st-theme==1.2.3
-stpyvista==0.1.4
+stpyvista
 streamlit-camera-input-live==0.2.0
 streamlit-card==1.0.2
 streamlit-embedcode==0.1.2
