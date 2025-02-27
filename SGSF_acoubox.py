@@ -131,7 +131,13 @@ st.set_page_config(
     
 )
 pv.global_theme.show_scalar_bar = True
-pv.OFF_SCREEN = True
+#pv.OFF_SCREEN = True
+#pv.USE_PANEL = False
+os.environ["DISPLAY"] = ""
+os.environ["PYVISTA_OFF_SCREEN"] = "true"
+os.environ["PYVISTA_USE_PANEL"] = "false"
+os.environ["MESA_GL_VERSION_OVERRIDE"] = "3.3"
+os.environ["VIRTUALGL_ALLOWINDIRECT"] = "1"
 
 ## Initialize a plotter object
 plotter = pv.Plotter(window_size=[600, 400])
